@@ -1,0 +1,685 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.maincontainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  height: 100px;
+  align-items: center;
+}
+.container1 {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.hover1:hover {
+  color: blue;
+  cursor: pointer;
+}
+.background {
+  background-image: url(sports-car-races-through-dark-blurred-motion-generative-ai_188544-12490.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 500px;
+  opacity: 1px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  text-align: center;
+  gap: 30px;
+}
+.background h1 {
+  color: white;
+  font-size: 40px;
+}
+.background p {
+  color: white;
+  font-size: 30px;
+}
+.background input {
+  height: 80px;
+  width: 350px;
+  text-align: center;
+  background-color: #4e4ffa;
+  margin-top: 80px;
+}
+.background input::placeholder {
+  font-size: 30px;
+  color: white;
+}
+#input:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+#container2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  height: 300px;
+  width: 1200px;
+  border-radius: 20px;
+  position: absolute;
+    position: relative;
+  /* top: 700px; */
+   bottom: 50px;
+  left: 180px; 
+  /* margin: auto; */
+  /* left: 25%; */
+  padding-top: 50px;
+  box-shadow: 10px 2px 10px 5px;
+}
+.box select {
+  width: 150px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.box2 select {
+  width: 150px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.box3 select {
+  width: 150px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+#box4 input {
+  height: 60px;
+  width: 200px;
+  text-align: center;
+  background-color: #4e4ffa;
+  margin-top: 60px;
+}
+#box4 input::placeholder {
+  font-size: 25px;
+  color: black;
+}
+#input1:hover {
+  background-color: blue;
+  cursor: pointer;
+}
+.box label {
+  font-size: 25px;
+}
+.box2 label {
+  font-size: 25px;
+}
+.box3 label {
+  font-size: 25px;
+}
+.mainbox {
+  display: flex;
+  top: 400px;
+  margin-top: 400px;
+}
+.mainbox1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+.box5 {
+  border: solid 1px black;
+  border-radius: 15px;
+  height: 450px;
+  width: 400px;
+}
+.box5imges {
+  height: 80px;
+  width: 100px;
+}
+.box5 h2 {
+  font-size: 30px;
+  padding-top: 40px;
+}
+.box5 p {
+  font-size: 25px;
+  padding-top: 40px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+}
+.text h1,
+h2 {
+  color: #444a57;
+}
+.paragraph {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.paragraph p {
+  font-size: 25px;
+  padding-top: 30px;
+  color: #818998;
+}
+.paragraph input {
+  background-color: blue;
+}
+.paragraph input {
+  height: 60px;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.paragraph ::placeholder {
+  font-size: 20px;
+  color: black;
+}
+.images1 {
+  height: 300px;
+  width: 400px;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  background-color: white;
+}
+#image {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 50px;
+}
+.maincontainer3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 140px;
+}
+#para1 {
+  height: 100px;
+  width: 400px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  font-size: 25px;
+  background-color: white;
+}
+.para1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.maincontainer4 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 140px;
+}
+.text {
+  font-size: 30px;
+  padding-top: 30px;
+}
+#img {
+  height: 100px;
+  width: 130px;
+}
+#para4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 300px;
+  border: solid 1px black;
+  border-radius: 10px;
+  align-items: center;
+}
+#para4 p {
+  font-size: 25px;
+  color: #818998;
+}
+.container5 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 140px;
+}
+.container5 :hover {
+  background-color: #4e4ffa;
+  cursor: pointer;
+}
+#container5 {
+  background-color: whitesmoke;
+}
+#text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: yellowgreen;
+  margin-top: 100px;
+}
+.brand {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  width: 100%;
+}
+.footer {
+  background-color: darkgrey;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.footer1 {
+  height: 200px;
+  width: 300px;
+}
+.heading1 {
+  color: black;
+  padding-top: 30px;
+}
+#p1 {
+  color: black;
+  font-size: 20px;
+  margin-top: 50px;
+}
+#p1:hover {
+  color: green;
+  cursor: pointer;
+}
+#lastimage {
+  width: 1200px;
+}
+@media (max-width: 1379px) {
+  .container1 {
+    gap: 20px;
+  }
+  #car-head {
+    font-size: 30px;
+  }
+  #container2 {
+    height: 250px;
+    width: 1100px;
+  }
+}
+@media (max-width: 1036px) {
+  .container1 {
+    gap: 10px;
+  }
+  #car-head {
+    font-size: 25px;
+  }
+  .background h1 {
+    font-size: 30px;
+  }
+  .background p {
+    font-size: 20px;
+  }
+  .background input {
+    height: 60px;
+    width: 300px;
+  }
+  #container2 {
+    height: 200px;
+    width: 900px;
+  }
+  .box select {
+    width: 100px;
+    height: 30px;
+  }
+  .box label {
+    font-size: 15px;
+  }
+  .box2 select {
+    width: 100px;
+    height: 30px;
+  }
+  .box1 label {
+    font-size: 15px;
+  }
+  .box3 select {
+    width: 100px;
+    height: 30px;
+  }
+  .box2 label {
+    font-size: 15px;
+  }
+  .box3 label {
+    font-size: 15px;
+  }
+  #box4 input {
+    width: 100px;
+    height: 30px;
+  }
+  #box4 input::placeholder {
+    font-size: 10px;
+  }
+  .box5 {
+    height: 300px;
+    width: 300px;
+    padding-top: 10px;
+  }
+  .box5 p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .box5 h2 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .paragraph p {
+    font-size: 20px;
+  }
+  .paragraph input {
+    height: 50px;
+    width: 130px;
+  }
+  #imgncm {
+    width: 400px;
+  }
+  .paragraph ::placeholder {
+    font-size: 15px;
+  }
+  .images1 {
+    height: 250px;
+    width: 350px;
+  }
+  #image {
+    height: 150px;
+    width: 250px;
+  }
+  #para1{
+    height: 80px;
+    width: 350px;
+    font-size: 18px;
+  }#p1{
+    font-size: 20px;
+    margin-top: 30px;
+  }.heading1{
+    font-size: 25px;
+  }#lastimage{
+    width: 1000px;
+  }
+}
+
+@media (max-width: 972px) {
+  .container1 {
+    gap: 5px;
+    font-size: 15px;
+  }
+  #car-head {
+    font-size: 20px;
+  }
+  #container2 {
+    height: 200px;
+    width: 600px;
+  }.footer1{
+    height: 180px;
+    width: 250px;
+  }#lastimage{
+    width: 800px;
+  }#para4{
+    height: 350px;
+    width: 250px;
+  }#para4 p{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 828px) {
+  .container1 {
+    gap: 2px;
+  }
+  #car-head {
+    font-size: 15px;
+  }
+  #container2 {
+    height: 200px;
+    width: 600px;
+  }#para1{
+    height: 70px;
+    width: 280px;
+    font-size: 14px;
+  }#lastimage{
+    width: 700px;
+  }#para4{
+    height: 320px;
+    width: 220px;
+  }#para4 p{
+    font-size: 15px;
+  }
+}
+@media (max-width: 772px) {
+  #car-head {
+    font-size: 15px;
+  }
+  .background input::placeholder {
+    font-size: 20px;
+  }
+  .hover1 {
+    font-size: 10px !important;
+  }
+  .background h1 {
+    font-size: 20px;
+  }
+  .background p {
+    font-size: 15px;
+  }
+  .background input {
+    height: 40px;
+    width: 200px;
+  }
+  #container2 {
+    height: 150px;
+    width: 600px;
+    padding-top: 2px;
+  }
+  .box5 {
+    height: 250px;
+    width: 200px;
+  }
+  .box5 p {
+    font-size: 15px;
+  }
+  .box5 h2 {
+    font-size: 15px;
+  }
+  .paragraph p {
+    font-size: 15px;
+  }
+  .paragraph input {
+    height: 30px;
+    width: 100px;
+  }
+  #imgncm {
+    width: 300px;
+  }
+  .images1 {
+    height: 200px;
+    width: 300px;
+  }
+  #image {
+    height: 100px;
+    width: 200px;
+  }
+  #para {
+    font-size: 15px;
+  }
+  .text h2 {
+    font-size: 30px;
+  }
+  .text h1 {
+    font-size: 30px;
+  }#para1{
+    height: 50px;
+    width: 230px;
+    font-size: 10px;
+  }#imgsrc{
+    width: 70px;
+  }#text2 h1{
+    font-size: 25;
+  }#text2 h2{
+    font-size: 25px;
+  }#para1{
+    height: 60px;
+    width: 300px;
+    font-size: 15px;
+  }#p1{
+    font-size: 15px;
+    margin-top: 20px;
+  }.heading1{
+    font-size: 15px;
+  }#lastimage{
+    width: 600px;
+  }#para4{
+    height: 300px;
+    width: 180px;
+  }#para4 p{
+    font-size: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .box5 {
+    height: 200px;
+    width: 200px;
+  }
+  .box5imges {
+    height: 60px;
+    width: 60px;
+  }
+  box5 h2 {
+    font-size: 10px;
+  }
+  .box5 p {
+    font-size: 10px;
+  }
+  .paragraph ::placeholder {
+    font-size: 10px;
+  }
+  .images1 {
+    height: 150px;
+    width: 200px;
+  }
+  #image {
+    height: 80px;
+    width: 180px;
+    padding-bottom: 10px;
+  }
+  #para {
+    font-size: 10px;
+  }#para1{
+    height: 30px;
+    width: 200px;
+    font-size: 8px;
+  }
+  #p1{
+    font-size: 18px;
+    margin-top: 15px;
+  }#lastimage{
+    width: 500px;
+  }#para4{
+    height: 250px;
+    width: 150px;
+  }#para4 p{
+    font-size: 10px;
+  }
+}
+@media (max-width: 528px) {
+  #container2 {
+    height: 200px;
+    width: 500px;
+  }
+  .box select {
+    width: 60px;
+    height: 30px;
+  }
+  .box label {
+    font-size: 15px;
+  }
+  .box2 select {
+    width: 60px;
+    height: 20px;
+  }
+  .box1 label {
+    font-size: 10px;
+  }
+  .box3 select {
+    width: 60px;
+    height: 20px;
+  }
+  .box2 label {
+    font-size: 10px;
+  }
+  .box3 label {
+    font-size: 10px;
+  }
+  #box4 select {
+    width: 20px;
+    height: 10px;
+  }
+  #box4 label {
+    font-size: 10px;
+  }
+  .paragraph p {
+    font-size: 10px;
+  }
+  .paragraph input {
+    height: 30px;
+    width: 90px;
+  }
+  #imgncm {
+    width: 200px;
+  }
+  .paragraph ::placeholder {
+    font-size: 10px;
+  }
+  .images1 {
+    height: 80px;
+    width: 150px;
+  }
+  #image {
+    height: 50px;
+    width: 100px;
+  }.footer1{
+    height: 40px;
+    width: 200px;
+    font-size: 10px;
+  }#p1{
+    font-size: 10px;
+    margin-top: 10px;
+  }.heading1{
+    font-size: 10px;
+  }#lastimage{
+    width: 400px;
+  }
+}
+@media (max-width: 520px) {
+  #car-head {
+    font-size: 7px;
+  }
+  .hover1 {
+    font-size: 7px !important;
+  }
+  .background h1 {
+    font-size: 10px;
+  }
+  .background p {
+    font-size: 10px;
+  }
+  .background input {
+    height: 30px;
+    width: 100px;
+  }
+  .background input::placeholder {
+    font-size: 10px;
+  }
+  #container2 {
+    height: 150px;
+    width: 400px;
+  }#lastimage{
+    width: 300px;
+  }
+}
